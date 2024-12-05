@@ -1,0 +1,40 @@
+.tag-container {
+    margin: 0;
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 295px;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  canvas {
+    position: absolute;
+  }
+
+  .tag-cloud {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    perspective: 500px;
+  }
+
+  .tag {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    
+    transform-origin: center;
+    color: #D9D9D9;
+    font-size: 12px;
+    font-weight: bold;
+    /* text-shadow: 0 0 5px #D9D9D9; */
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  .tag:hover {
+    color: #2183c4;
+    /* text-shadow: 0 0 10px #2183c4; */
+  }

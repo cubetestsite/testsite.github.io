@@ -1,0 +1,9 @@
+.accordion-table:nth-child(even) .accordion-label
+{
+  background-color:var(--grey_color) ;
+}
+
+.accordion-table:nth-child(odd) .accordion-label
+{
+  background-color:var(--Orange_color) ;
+}

@@ -1,0 +1,70 @@
+.profile-tabs .active .tab-head {
+    color: var(--Orange_color) !important;
+}
+
+.profile-tabs {
+    height: 100%;
+}
+
+@media (min-width: 768px) {
+    .profile-tabs {
+        height: 100dvh;
+    }
+
+    .order-summary {
+        min-height: 100dvh;
+    }
+}
+
+.tab-description {
+    color: #989595;
+}
+
+.detail-btn:not(.collapsed) {
+    background-color: #00C8FF;
+}
+
+.address-radio {
+    accent-color: #65558F;
+    width: 15px;
+    height: 15px;
+}
+
+.profile-tab-border {
+    border: 0px;
+    border-bottom: 1.5px dotted #B2B1B1;
+}
+
+.profile-button {
+    background: linear-gradient(0deg, #7e7e7e, #e6e6e6, #7e7e7e);
+    color: #333;
+}
+
+.message-table {
+    width: 100%;
+    border-spacing: 0 8px;
+    border-collapse: separate;
+}
+
+.login-bg {
+    background-image: url(../images/login-bg-img.png);
+    background-position: center center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0.7;
+    background-size: cover;
+    background-repeat: no-repeat;
+    &:before {
+        content: '';
+        background-color: #000000;
+        opacity: 0.7;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+    }
+}
