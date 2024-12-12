@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/logo.svg" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/landing.css">
+    <link rel="stylesheet" type="text/css" href="css/colors.css">
+    <link rel="stylesheet" type="text/css" href="css/font.css">
+    <link rel="stylesheet" type="text/css" href="css/header.css">
+    <link rel="stylesheet" type="text/css" href="css/animations.css">
+    <link rel="stylesheet" type="text/css" href="css/products.css">
+    
+    <script src="js/animations.js"></script>
+    <title>Product Detail</title>
+</head>
+
+<body>
+
+    <!-- nav bar starts here -->
+    <div class="bg-dark fixed-top py-2 d-none d-lg-block">
+        <div class=" container-lg text-white d-flex align-item-center justify-content-between  ">
+            <span class="font-semibold font-14 d-flex gap-5 ">
+                <span>
+                    <a href="mailto:admin@epicbnnt.com?cc=Marie.Phelps@epicbnnt.com"
+                        class="text-white text-decoration-none d-flex gap-2">
+                        <img src="images/mail-icon.svg" alt="mail-icon">contact@epicbnnt.com</a></span>
+                <span><a href="tel:+1-800-581-4528" class="text-white text-decoration-none d-flex gap-2">
+                        <img src="images/call-icon.svg" alt="mail-icon">+1-800-581-4528</a></span>
+            </span>
+            <span class="font-regular font-12 d-flex gap-3">
+                <!-- <span><a href="press-release.html" class="text-white text-decoration-none">PRESS RELEASE</a></span> -->
+                <span><a href="#" class="text-white text-decoration-none">TDS</a></span>
+                <span><a href="#" class="text-white text-decoration-none">SDS</a></span>
+                <span><a href="careers.html" class="text-white text-decoration-none">CAREERS</a></span>
+                <span><a href="contactus.html" class="text-white text-decoration-none">CONTACT US</a></span>
+            </span>
+        </div>
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark primary-color fixed-top bottom-nav">
+        <div class="container-lg">
+            <a class="navbar-brand" href="index.html"><img src="images/logo.svg" alt="logo"></a>
+            <div class="d-flex align-items-center gap-3">
+                <ul class="d-flex gap-3 d-block d-lg-none my-0">
+                    <li class="nav-item mx-1">
+                        <a class="nav-link font-regular font-12 text-white position-relative" href="cart.html"><img
+                                src="images/cart-icon.svg" alt="cart-icon">
+                            <span
+                                class="cart-count position-absolute justify-content-center d-flex align-items-center top-0 start-50 font-10">1</span></a>
+                    </li>
+                    <li class="nav-item mx-1">
+                        <a class="nav-link font-regular font-12 text-white " href="login.html" title="login"><img
+                                src="images/user-icon.svg" alt="cart-icon"></a>
+                    </li>
+                </ul>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <!-- mobile nav links starts here -->
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                    <li class="nav-item d-sm-block d-lg-none">
+                        <a class="nav-link  font-regular font-12" href="index.html">HOME</a>
+                    </li>
+                    <li class="nav-item d-sm-block d-lg-none">
+                        <a class="nav-link font-regular font-12" href="product.html">PRODUCTS</a>
+                    </li>
+                    <li class="nav-item d-sm-block d-lg-none">
+                        <a class="nav-link font-regular font-12" href="#">Applications</a>
+                    </li>
+                    <li class="nav-item d-sm-block d-lg-none">
+                        <a class="nav-link font-regular font-12" href="softwaretool.html">SOFTWARE TOOLS</a>
+                    </li>
+
+                    <li class="nav-item dropdown d-sm-block d-lg-none">
+                        <a class="nav-link dropdown-toggle font-regular font-12" href="mission-vision.html"
+                            role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            OUR STORY
+                        </a>
+                        <ul class="dropdown-menu head-dropdown py-0">
+                            <li><a class="dropdown-item text-white font-12 font-regular"
+                                    href="mission-vision.html">MISSION & VISION</a></li>
+                            <li><a class="dropdown-item text-white font-12 font-regular" href="team.html">TEAM</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item d-sm-block d-lg-none">
+                        <a class="nav-link font-regular font-12" href="partnership.html">PARTNERSHIPS</a>
+                    </li>
+                    <li class="nav-item dropdown d-sm-block d-md-none">
+                        <a class="nav-link dropdown-toggle font-regular font-12" href="publications.html" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            NEWS
+                        </a>
+                        <ul class="dropdown-menu head-dropdown py-0">
+                            <li><a class="dropdown-item text-white font-12 font-regular"
+                                    href="publications.html">PUBLICATIONS</a></li>
+                            <li><a class="dropdown-item text-white font-12 font-regular" href="events.html">EVENTS</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <hr class="nav-divider">
+                    </li>
+
+                    <li class="nav-item d-sm-block d-lg-none">
+                        <a class="nav-link font-regular font-12 d-flex gap-2 text-white"
+                            href="mailto:admin@epicbnnt.com?cc=Marie.Phelps@epicbnnt.com"><img
+                                src="images/mail-icon.svg" alt="mail-icon">admin@epicbnnt.com</a>
+                    </li>
+
+                    <li class="nav-item d-sm-block d-lg-none">
+                        <a class="nav-link font-regular font-12 d-flex gap-2 text-white" href="tel:+1-800-581-4528"><img
+                                src="images/call-icon.svg" alt="mail-icon">+1-800-581-4528</a>
+                    </li>
+                    <!-- <li class="nav-item d-sm-block d-lg-none">
+                    <a class="nav-link font-regular font-12 text-white" href="press-release.html">PRESS RELEASE</a>
+                </li> -->
+                    <li class="nav-item d-sm-block d-lg-none">
+                        <a class="nav-link font-regular font-12 text-white" href="#">TDS</a>
+                    </li>
+                    <li class="nav-item d-sm-block d-lg-none">
+                        <a class="nav-link font-regular font-12 text-white" href="#">SDS</a>
+                    </li>
+                    <li class="nav-item d-sm-block d-lg-none">
+                        <a class="nav-link font-regular font-12 text-white" href="careers.html">CAREERS</a>
+                    </li>
+                    <li class="nav-item d-sm-block d-lg-none">
+                        <a class="nav-link font-regular font-12 text-white" href="contactus.html">CONTACT US</a>
+                    </li>
+                </ul>
+                <!-- mobile nav links ends here -->
+
+                <!-- desktop nav links starts here -->
+                <ul class="navbar-nav ms-auto  d-none d-lg-flex">
+                    <li class="nav-item mx-1">
+                        <a class="nav-link  font-regular font-12 text-white" href="index.html">HOME</a>
+                    </li>
+                    <li class="nav-item mx-1">
+                        <a class="nav-link font-regular font-12 text-white" href="product.html">PRODUCTS</a>
+                    </li>
+                    <li class="nav-item mx-1">
+                        <a class="nav-link font-regular font-12 text-white" href="#">APPLICATIONS</a>
+                    </li>
+                    <li class="nav-item mx-1">
+                        <a class="nav-link font-regular font-12 text-white" href="softwaretool.html">SOFTWARE TOOLS</a>
+                    </li>
+
+                    <li class="nav-item dropdown mx-1 header-dropdown">
+                        <a class="nav-link dropdown-toggle font-regular font-12 text-white" href="mission-vision.html"
+                            role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            OUR STORY
+                        </a>
+                        <ul class="dropdown-menu head-dropdown py-0">
+                            <li><a class="dropdown-item text-white font-12 font-regular"
+                                    href="mission-vision.html">MISSION & VISION</a>
+                            </li>
+                            <li><a class="dropdown-item text-white font-12 font-regular" href="team.html">TEAM</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item mx-1">
+                        <a class="nav-link font-regular font-12 text-white" href="partnership.html">PARTNERSHIPS</a>
+                    </li>
+                    <li class="nav-item dropdown mx-1 header-dropdown">
+                        <a class="nav-link dropdown-toggle font-regular font-12 text-white" href="publications.html"
+                            role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            NEWS
+                        </a>
+                        <ul class="dropdown-menu head-dropdown py-0">
+                            <li><a class="dropdown-item text-white font-12 font-regular"
+                                    href="publications.html">PUBLICATIONS</a></li>
+                            <li><a class="dropdown-item text-white font-12 font-regular" href="events.html">EVENTS</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item mx-1">
+                        <a class="nav-link font-regular font-12 text-white position-relative" href="cart.html"><img
+                                src="images/cart-icon.svg" alt="cart-icon">
+                            <span
+                                class="d-flex cart-count position-absolute justify-content-center align-items-center top-0 end-0 font-10">1</span></a>
+                    </li>
+                    <li class="nav-item mx-1">
+                        <a class="nav-link font-regular font-12 text-white" href="login.html"><img
+                                src="images/user-icon.svg" alt="cart-icon"></a>
+                    </li>
+                </ul>
+                <!-- desktop nav links ends here -->
+            </div>
+        </div>
+    </nav>
+    <!-- nav bar ends here -->
+
+    <!-- hero section starts here-->
+    <div class="position-relative mt-5 pt-lg-5 ">
+        <div class="fadeover-product ">
+            <img class="product-section-img w-100 d-block " alt="products-bg-img" src="images/product-detail-bg.jpg">
+        </div>
+        <div class="container ">
+            <div
+                class="d-none d-lg-block position-absolute top-50  font-bold font-52 translate-middle-y product-text text-white ">
+                Boron Nitride
+                Nanotubes
+                <span class="font-14 d-block font-regular mt-4">Supercharge your products with BNNTs</span>
+            </div>
+            <div class="position-absolute top-50 start-50 font-bold font-52 translate-middle ">
+
+                <div class="d-grid  mt-lg-5 pt-lg-3">
+                    <img alt="bnnt-hero-powder-img" src="images/bnnt-hero-powder-img.png" >
+                    <div class="d-flex align-item-center justify-content-center">
+                        <a href="cart.html"
+                            class="btn btn-primary rounded-1 orange-color px-3 py-2 font-semibold font-16 border-0 d-flex align-item-center gap-2">
+                            <img src="images/cart-icon.svg" alt="cart-icon">
+                            ADD TO CART
+                    </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- hero section ends here-->
+
+    <!-- body content starts here -->
+    <div class="container-fluid bg-grad">
+        <div class="container-lg">
+            <div class="row justify-content-center">
+                <h2 class="font-32 font-bold text-white text-center mt-5 pt-5">
+                    DELIVERY FORMS
+                    <span class="font-regular font-18 d-block mt-2">Nanomaterial handling is easy and safe</span>
+                </h2>
+                <div class="col-lg-3 col-md-4 col-sm-6 my-5">
+                    <div class=" d-flex flex-column align-items-center justify-content-center text-decoration-none"
+                        title="bnnt-fluid-concentrate">
+                        <img src="images/fluid-concentration.png" alt="bnnt-powder-img" class="delivery-form-img">
+                        <span class="d-block text-white font-regular font-14">Fluid Concentrate</span>
+                    </div>
+                </div>
+                <div class="col-lg-3  col-md-4 col-sm-6 my-5">
+                    <div class=" d-flex flex-column align-items-center justify-content-center text-decoration-none"
+                        title="bnnt-powder">
+                        <img src="images/bnnt-powder-img.png" alt="bnnt-powder-img" class="delivery-form-img">
+                        <span class="d-block text-white font-regular font-14">Powder</span>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 my-5">
+                    <div class=" d-flex flex-column align-items-center justify-content-center text-decoration-none"
+                        title="bnnt-fibrous-Material">
+                        <img src="images/fibrous-material.png" alt="bnnt-powder-img" class="delivery-form-img">
+                        <span class="d-block text-white font-regular font-14 ">Fibrous Material</span>
+                    </div>
+                </div>
+                <div
+                    class="my-5 orange-color rounded-2 p-4 text-center text-sm-start d-flex gap-3 flex-column flex-sm-row align-items-center justify-content-between text-white">
+                    <span>
+                        <span class="font-24 font-bold">CUSTOM DELIVERY</span>
+                        <span class="font-14 font-regular d-block">We'll work with you to ensure ease of handling</span>
+                    </span>
+                    <span><button class=" btn btn-outline-light  rounded-1 px-4  font-semibold font-16 ">SCHEDULE A
+                            CALL</button></span>
+                </div>
+                <h2 class="font-32 font-bold text-white text-center mb-5 pt-5">
+                    PROPERTIES
+                </h2>
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                    <div class="text-white product-card d-flex flex-column align-items-center justify-content-center text-decoration-none"
+                        style="height: 120px;">
+                        <span class="font-18 font-bold mb-2"> Surface Area</span>
+                        <span class="font-14 font-regular">400 m2/g</span>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                    <div class="text-white product-card d-flex flex-column align-items-center justify-content-center text-decoration-none"
+                        style="height: 120px;">
+                        <span class="font-18 font-bold mb-2"> Dielectic Constant </span>
+                        <span class="font-14 font-regular">4</span>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                    <div class="text-white product-card d-flex flex-column align-items-center justify-content-center text-decoration-none"
+                        style="height: 120px;">
+                        <span class="font-18 font-bold mb-2"> Neutron Absorption</span>
+                        <span class="font-14 font-regular">B = 767 barn, N = 1.9 barn</span>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                    <div class="text-white product-card d-flex flex-column align-items-center justify-content-center text-decoration-none"
+                        style="height: 120px;">
+                        <span class="font-18 font-bold mb-2">Oxidative Resistance </span>
+                        <span class="font-14 font-regular">950 C</span>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                    <div class="text-white product-card d-flex flex-column align-items-center justify-content-center text-decoration-none"
+                        style="height: 120px;">
+                        <span class="font-18 font-bold mb-2">Young's Modulus</span>
+                        <span class="font-14 font-regular">1.3 TPa</span>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                    <div class="text-white product-card d-flex flex-column align-items-center justify-content-center text-decoration-none"
+                        style="height: 120px;">
+                        <span class="font-18 font-bold mb-2">Electrical Conductivity</span>
+                        <span class="font-14 font-regular">Insulating (5.5 ev bandgap)</span>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                    <div class="text-white product-card d-flex flex-column align-items-center justify-content-center text-decoration-none"
+                        style="height: 120px;">
+                        <span class="font-18 font-bold mb-2">Chemical Stability</span>
+                        <span class="font-14 font-regular"> Excellent</span>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                    <div class="text-white product-card d-flex flex-column align-items-center justify-content-center text-decoration-none"
+                        style="height: 120px;">
+                        <span class="font-18 font-bold mb-2">Thermal Conductivity</span>
+                        <span class="font-14 font-regular">1000 W/mK</span>
+                    </div>
+                </div>
+
+                <h2 class="font-32 font-bold text-white text-center mt-4 mb-5  pt-5">
+                    Applications and Research
+                    <span class="font-regular font-18 d-block mt-2">Ground Breaking Performance</span>
+                </h2>
+                <div class="mb-5">
+                    <div class="position-relative text-white product-card d-flex flex-column align-items-center justify-content-center text-decoration-none"
+                        style="height:480px;">
+                        <!-- <h2 class="font-32 font-bold orange-font text-center mb-5">
+                           <span> POLYMERS</span>
+                        </h2> -->
+
+                        <button class="carousel-control-prev" style="width: 5%;" id="scrollButtonLeft">
+                            <span class="carousel-control-prev-icon"></span>
+                        </button>
+                        <button class="carousel-control-next" style="width: 5%;" id="scrollButtonRight">
+                            <span class="carousel-control-next-icon"></span>
+                        </button>
+                        <div class="row property-carousel w-100" id="scrollContainer">
+                            <div class="col-xl-4 col-lg-6 col-md-6 col-12 border-end">
+                                <div class="d-flex flex-column align-item-center px-5 justify-content-between h-100">
+                                    <span class="badge rounded-pill orange-color mx-auto mb-3 font-regular">Polymers</span>
+                                    <a href="https://pubs.rsc.org/en/content/articlelanding/2022/na/d1na00677k" class="font-18 font-semibold text-white d-block text-center">BNNT/PVA
+                                        Fibers</a>
+                                    <span class="font-12 font-regular text-white d-block text-center mb-4">4.2x and
+                                        12.1x tensile strength and Young's modulus improvement over neat PVA</span>
+                                    <span class="font-10 font-regular text-white d-block text-center mb-4">
+                                        <span class="d-block">Tensile Strength 7 GPa</span>
+                                        <span class="d-block">Young's Modulus 600 MPa</span>
+                                        <span class="d-block">Loading Percentage 1%</span></span>
+                                    <img src="images/pva-fibers-img.png" alt="pva-fiber-img" class="w-100">
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-lg-6 col-md-6 col-12 border-end">
+                                <div class="d-flex flex-column align-item-center justify-content-between h-100 px-5">
+                                    <span class="badge rounded-pill orange-color font-regular mx-auto mb-3">Polymers</span>
+                                    <a href="https://pubs.acs.org/doi/10.1021/acs.jpcc.7b10761" class="font-18 font-semibold text-white d-block text-center">BNNT/TPU Composites</a>
+                                    <span class="font-12 font-regular text-white d-block text-center mb-4">15x and 4x thermal conductivity
+                                        improvement over neat TPU</span>
+                                    <span class="font-10 font-regular text-white d-block text-center mb-4">
+                                        <span class="d-block">In Plane Thermal Conductivity 15W/mK</span>
+                                        <span class="d-block">Out of Plane Thermal Conductivity 2.25 W/mK</span>
+                                        <span class="d-block">Loading Percentage 1%</span></span>
+                                    <img src="images/tpu-composite-img.png" alt="pva-fiber-img" class="w-100">
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-lg-6 col-md-6 col-12 border-end">
+                                <div class="d-flex flex-column align-item-center justify-content-between h-100 px-5">
+                                    <span class="badge rounded-pill orange-color font-regular mx-auto mb-3">Polymers</span>
+                                    <a href="https://pubs.rsc.org/en/content/articlelanding/2021/ra/d1ra00873k" class="font-18 font-semibold text-white d-block text-center">BNNT/WPUA Thin Films</a>
+                                    <span class="font-12 font-regular text-white d-block text-center mb-4">4.2x and
+                                        12.1x tensile strength and Young's modulus improvement over neat PVA</span>
+                                    <span class="font-10 font-regular text-white d-block text-center mb-4">
+                                        <!-- <span class="d-block">Loading Percentage 2.5%</span> -->
+                                        <!-- <span class="d-block">Young's Modulus 600 MPa</span> -->
+                                        <span class="d-block">Loading Percentage 1%</span></span>
+                                    <img src="images/wpua-thin-films-img.png" alt="pva-fiber-img" class="w-100">
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-lg-6 col-md-6 col-12 border-end">
+                                <div class="d-flex flex-column align-item-center justify-content-between h-100 px-5">
+                                    <span class="badge rounded-pill light-blue font-regular mx-auto mb-3">Metals</span>
+                                    <a href="https://www.sciencedirect.com/science/article/abs/pii/S0921509313002839?via%3Dihub" class="font-18 font-semibold text-white d-block text-center">BNNT-Al Composite</a>
+                                    <span class="font-12 font-regular text-white d-block text-center mb-4">60% YS and 60% CS
+                                        improvement over neat Al</span>
+                                    <span class="font-10 font-regular text-white d-block text-center mb-4">
+                                        <span class="d-block">Tensile Strength 4.2x</span>
+                                        <span class="d-block">Young's Modulus 12.1x</span>
+                                        <span class="d-block">Loading Percentage 1%</span></span>
+                                    <img src="images/BNNT-Al-Composite.png" alt="BNNT-Al-Composite" class="w-100">
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-lg-6 col-md-6 col-12 border-end">
+                                <div class="d-flex flex-column align-item-center justify-content-between h-100 px-5">
+                                    <span class="badge rounded-pill light-blue font-regular  mx-auto mb-3">Metals</span>
+                                    <a href="https://www.cambridge.org/core/journals/journal-of-materials-research/article/abs/boron-nitride-nanotube-reinforced-titanium-metal-matrix-composites-with-excellent-hightemperature-performance/3E5203258F63764DAF7C2128D3D8F877" class="font-18 font-semibold text-white d-block text-center">BNNT-Ti Composite</a>
+                                    <span class="font-12 font-regular text-white d-block text-center mb-4">62% CS improvement
+                                        over neat Ti</span>
+                                    <span class="font-10 font-regular text-white d-block text-center mb-4">
+                                        <span class="d-block">Compressive Strength 1400 MPa</span>
+                                        <span class="d-block">Loading Percentage 4%</span>
+                                        <!-- <span class="d-block">Loading Percentage 1%</span> -->
+                                    </span>
+                                    <img src="images/BNNT-Ti-Composite.png" alt="BNNT-Ti-Composite" class="w-100">
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-lg-6 col-md-6 col-12 border-end">
+                                <div class="d-flex flex-column align-item-center justify-content-between h-100 px-5">
+                                    <span class="badge rounded-pill grey-color font-regular  mx-auto mb-3">Batteries</span>
+                                    <a href="https://www.sciencedirect.com/science/article/abs/pii/S2405829719301990" class="font-18 font-semibold text-white d-block text-center">Li-Ion Separators</a>
+                                    <span class="font-12 font-regular text-white d-block text-center mb-4">BNNT Coated PP Separators</span>
+                                    <span class="font-10 font-regular text-white d-block text-center mb-4">
+                                        <span class="d-block">Safe Operation over 200 C</span>
+                                        <span class="d-block">Superior Thermal Conductivity</span>
+                                        <!-- <span class="d-block">Loading Percentage 1%</span> -->
+                                    </span>
+                                    <img src="images/Li-Ion-Separators.png" alt="Li-Ion Separators" class="w-100">
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-lg-6 col-md-6 col-12 border-end">
+                                <div class="d-flex flex-column align-item-center justify-content-between h-100 px-5">
+                                    <span class="badge rounded-pill grey-color font-regular  mx-auto mb-3">Batteries</span>
+                                    <a href="#" class="font-18 font-semibold text-white d-block text-center">Li-S Batteries</a>
+                                    <span class="font-12 font-regular text-white d-block text-center mb-4">BNNT Coated PP Separators</span>
+                                    <span class="font-10 font-regular text-white d-block text-center mb-4">
+                                        <span class="d-block">Improved Ionic Conductivity</span>
+                                        <span class="d-block">Improved Energy Density</span>
+                                        <!-- <span class="d-block">Loading Percentage 1%</span> -->
+                                    </span>
+                                    <img src="images/Li-S-Batteries.png" alt="BNNT-Al-Composite" class="w-100">
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-lg-6 col-md-6 col-12 border-end">
+                                <div class="d-flex flex-column align-item-center justify-content-between h-100 px-5">
+                                    <span class="badge rounded-pill primary-color font-regular   mx-auto mb-3">Others</span>
+                                    <a href="https://www.sciencedirect.com/science/article/abs/pii/S0927024819305951" class="font-18 font-semibold text-white d-block text-center">DowthermA Enhancement</a>
+                                    <span class="font-12 font-regular text-white d-block text-center mb-4">Thermal Conductivity Improved 33%</span>
+                                    <span class="font-10 font-regular text-white d-block text-center mb-4">
+                                        <span class="d-block">Thermal Conductivity ~0.195 W/mK at 365 K</span>
+                                        <span class="d-block">Loading Percentage 0.005%</span>
+                                        <!-- <span class="d-block">Loading Percentage 1%</span> -->
+                                    </span>
+                                    <img src="images/DowthermA-Enhancement.png" alt="pva-fiber-img" class="w-100">
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-lg-6 col-md-6 col-12 border-end">
+                                <div class="d-flex flex-column align-item-center justify-content-between h-100 px-5">
+                                    <span class="badge rounded-pill primary-colorfont-regular   mx-auto mb-3">Others</span>
+                                    <a href="https://www.sciencedirect.com/science/article/pii/S0264127521006791" class="font-18 font-semibold text-white d-block text-center">BNNT Enhanced Aramid Paper</a>
+                                    <span class="font-12 font-regular text-white d-block text-center mb-4">Tensile Strength and Thermal Conductivity
+                                        improved 40% and 124%</span>
+                                    <span class="font-10 font-regular text-white d-block text-center mb-4">
+                                        <span class="d-block">Tensile Strength 330 MPa</span>
+                                        <span class="d-block">Thermal Conductivity 4.25 W/mK</span>
+                                        <span class="d-block">Loading Percentage 2.5%</span></span>
+                                    <img src="images/BNNT-Enhanced-Aramid-Paper.png" alt="pva-fiber-img" class="w-100">
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                    <div class="text-center mt-5 mb-3"><a href="product.html"
+                            class="text-white font-regular text-decoration-none">
+                            &lt; Back to products</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- body content ends here -->
+
+
+      <!-- footer starts here  -->
+      <footer class="footer py-3 primary-color">
+        <div class="container">
+            <div class="d-grid d-md-flex align-items-center justify-content-md-between justify-content-center gap-3">
+                <span class="text-white font-12 font-semibold d-block">Copyright © 2024 Epic Advanced Materials</span>
+                <span class="text-white font-12 font-semibold d-block d-flex gap-5">
+                    <span><a href="privacy.html" class="text-white text-decoration-none">Privacy policy</a></span>
+                    <span><a href="terms.html" class="text-white text-decoration-none">Terms & Conditions</a></span>
+                </span>
+                <span class="text-white font-12 font-semibold d-block d-flex gap-3">
+                    <span><a href="https://x.com/EpicNanotech"><img src="images/twitter-icon.svg" alt="twitter-icon"></a></span>
+                    <span><a href="https://www.linkedin.com/company/epic-advanced-materials/posts/?feedView=all"><img
+                                src="images/linkedin-icon.svg" alt="twitter-icon"></a></span>
+                    <span><a href="https://www.instagram.com/epicnanotech/"><img src="images/instagram-icon.svg"
+                                alt="twitter-icon"></a></span>
+                </span>
+            </div>
+        </div>
+    </footer>
+    <!-- footer enters  here  -->
+
+
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.js"></script>
+
+</body>
+
+</html>

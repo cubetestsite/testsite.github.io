@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/logo.svg" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/landing.css">
+    <link rel="stylesheet" type="text/css" href="css/colors.css">
+    <link rel="stylesheet" type="text/css" href="css/font.css">
+    <link rel="stylesheet" type="text/css" href="css/header.css">
+    <link rel="stylesheet" type="text/css" href="css/animations.css">
+    <link rel="stylesheet" type="text/css" href="css/products.css">
+    <link rel="stylesheet" type="text/css" href="css/profile.css">
+    <title>Cart</title>
+</head>
+
+<body>
+
+   <!-- nav bar starts here -->
+   <div class="bg-dark fixed-top py-2 d-none d-lg-block">
+    <div class=" container-lg text-white d-flex align-item-center justify-content-between  ">
+        <span class="font-semibold font-14 d-flex gap-5 ">
+            <span>
+                <a href="mailto:admin@epicbnnt.com?cc=Marie.Phelps@epicbnnt.com" class="text-white text-decoration-none d-flex gap-2">
+                    <img src="images/mail-icon.svg" alt="mail-icon">contact@epicbnnt.com</a></span>
+            <span><a href="tel:+1-800-581-4528" class="text-white text-decoration-none d-flex gap-2">
+                    <img src="images/call-icon.svg" alt="mail-icon">+1-800-581-4528</a></span>
+        </span>
+        <span class="font-regular font-12 d-flex gap-3">
+            <!-- <span><a href="press-release.html" class="text-white text-decoration-none">PRESS RELEASE</a></span> -->
+            <span><a href="#" class="text-white text-decoration-none">TDS</a></span>
+            <span><a href="#" class="text-white text-decoration-none">SDS</a></span>
+            <span><a href="careers.html" class="text-white text-decoration-none">CAREERS</a></span>
+            <span><a href="contactus.html" class="text-white text-decoration-none">CONTACT US</a></span>
+        </span>
+    </div>
+</div>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark primary-color fixed-top bottom-nav">
+    <div class="container-lg">
+        <a class="navbar-brand" href="index.html"><img src="images/logo.svg" alt="logo"></a>
+        <div class="d-flex align-items-center gap-3">
+            <ul class="d-flex gap-3 d-block d-lg-none my-0">
+                <li class="nav-item mx-1">
+                    <a class="nav-link font-regular font-12 text-white position-relative" href="cart.html"><img
+                            src="images/cart-icon.svg" alt="cart-icon">
+                        <span
+                            class="cart-count position-absolute justify-content-center d-flex align-items-center top-0 start-50 font-10">1</span></a>
+                </li>
+                <li class="nav-item mx-1">
+                    <a class="nav-link font-regular font-12 text-white " href="login.html" title="login"><img src="images/user-icon.svg"
+                            alt="cart-icon"></a>
+                </li>
+            </ul>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <!-- mobile nav links starts here -->
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                <li class="nav-item d-sm-block d-lg-none">
+                    <a class="nav-link  font-regular font-12" href="index.html">HOME</a>
+                </li>
+                <li class="nav-item d-sm-block d-lg-none">
+                    <a class="nav-link font-regular font-12" href="product.html">PRODUCTS</a>
+                </li>
+                <li class="nav-item d-sm-block d-lg-none">
+                    <a class="nav-link font-regular font-12" href="#">Applications</a>
+                </li>
+                <li class="nav-item d-sm-block d-lg-none">
+                    <a class="nav-link font-regular font-12" href="softwaretool.html">SOFTWARE TOOLS</a>
+                </li>
+
+                <li class="nav-item dropdown d-sm-block d-lg-none">
+                    <a class="nav-link dropdown-toggle font-regular font-12" href="mission-vision.html" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        OUR STORY
+                    </a>
+                    <ul class="dropdown-menu head-dropdown py-0">
+                        <li><a class="dropdown-item text-white font-12 font-regular" href="mission-vision.html">MISSION & VISION</a></li>
+                        <li><a class="dropdown-item text-white font-12 font-regular" href="team.html">TEAM</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item d-sm-block d-lg-none">
+                    <a class="nav-link font-regular font-12" href="partnership.html">PARTNERSHIPS</a>
+                </li>
+                <li class="nav-item dropdown d-sm-block d-md-none">
+                    <a class="nav-link dropdown-toggle font-regular font-12" href="publications.html" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        NEWS
+                    </a>
+                    <ul class="dropdown-menu head-dropdown py-0">
+                        <li><a class="dropdown-item text-white font-12 font-regular" href="publications.html">PUBLICATIONS</a></li>
+                        <li><a class="dropdown-item text-white font-12 font-regular" href="events.html">EVENTS</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <hr class="nav-divider">
+                </li>
+
+                <li class="nav-item d-sm-block d-lg-none">
+                    <a class="nav-link font-regular font-12 d-flex gap-2 text-white"
+                        href="mailto:admin@epicbnnt.com?cc=Marie.Phelps@epicbnnt.com"><img src="images/mail-icon.svg"
+                            alt="mail-icon">admin@epicbnnt.com</a>
+                </li>
+
+                <li class="nav-item d-sm-block d-lg-none">
+                    <a class="nav-link font-regular font-12 d-flex gap-2 text-white" href="tel:+1-800-581-4528"><img
+                            src="images/call-icon.svg" alt="mail-icon">+1-800-581-4528</a>
+                </li>
+                <!-- <li class="nav-item d-sm-block d-lg-none">
+                    <a class="nav-link font-regular font-12 text-white" href="press-release.html">PRESS RELEASE</a>
+                </li> -->
+                <li class="nav-item d-sm-block d-lg-none">
+                    <a class="nav-link font-regular font-12 text-white" href="#">TDS</a>
+                </li>
+                <li class="nav-item d-sm-block d-lg-none">
+                    <a class="nav-link font-regular font-12 text-white" href="#">SDS</a>
+                </li>
+                <li class="nav-item d-sm-block d-lg-none">
+                    <a class="nav-link font-regular font-12 text-white" href="careers.html">CAREERS</a>
+                </li>
+                <li class="nav-item d-sm-block d-lg-none">
+                    <a class="nav-link font-regular font-12 text-white" href="contactus.html">CONTACT US</a>
+                </li>
+            </ul>
+            <!-- mobile nav links ends here -->
+
+            <!-- desktop nav links starts here -->
+            <ul class="navbar-nav ms-auto  d-none d-lg-flex">
+                <li class="nav-item mx-1">
+                    <a class="nav-link  font-regular font-12 text-white" href="index.html">HOME</a>
+                </li>
+                <li class="nav-item mx-1">
+                    <a class="nav-link font-regular font-12 text-white" href="product.html">PRODUCTS</a>
+                </li>
+                <li class="nav-item mx-1">
+                    <a class="nav-link font-regular font-12 text-white" href="#">APPLICATIONS</a>
+                </li>
+                <li class="nav-item mx-1">
+                    <a class="nav-link font-regular font-12 text-white" href="softwaretool.html">SOFTWARE TOOLS</a>
+                </li>
+
+                <li class="nav-item dropdown mx-1 header-dropdown">
+                    <a class="nav-link dropdown-toggle font-regular font-12 text-white" href="mission-vision.html" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        OUR STORY
+                    </a>
+                    <ul class="dropdown-menu head-dropdown py-0">
+                        <li><a class="dropdown-item text-white font-12 font-regular" href="mission-vision.html">MISSION & VISION</a>
+                        </li>
+                        <li><a class="dropdown-item text-white font-12 font-regular" href="team.html">TEAM</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item mx-1">
+                    <a class="nav-link font-regular font-12 text-white" href="partnership.html">PARTNERSHIPS</a>
+                </li>
+                <li class="nav-item dropdown mx-1 header-dropdown">
+                    <a class="nav-link dropdown-toggle font-regular font-12 text-white" href="publications.html" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        NEWS
+                    </a>
+                    <ul class="dropdown-menu head-dropdown py-0">
+                        <li><a class="dropdown-item text-white font-12 font-regular" href="publications.html">PUBLICATIONS</a></li>
+                        <li><a class="dropdown-item text-white font-12 font-regular" href="events.html">EVENTS</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item mx-1">
+                    <a class="nav-link font-regular font-12 text-white position-relative" href="cart.html"><img
+                            src="images/cart-icon.svg" alt="cart-icon">
+                        <span
+                            class="d-flex cart-count position-absolute justify-content-center align-items-center top-0 end-0 font-10">1</span></a>
+                </li>
+                <li class="nav-item mx-1">
+                    <a class="nav-link font-regular font-12 text-white" href="login.html"><img src="images/user-icon.svg"
+                            alt="cart-icon"></a>
+                </li>
+            </ul>
+            <!-- desktop nav links ends here -->
+        </div>
+    </div>
+</nav>
+<!-- nav bar ends here -->
+
+    <div class="container-fluid bg-grad">
+        <div class="row">
+            <div class="col-md-12 mt-5 pt-5 ">
+                <div class=" mx-lg-4 px-2 ">
+                    <div class="row ">
+                        <div class="col-md-8 grey-color-100">
+                            <div
+                                class="d-flex flex-column flex-md-row align-items-center justify-content-between pb-2 border-bottom border-secondary mx-3 mt-4">
+                                <h4 class="font-24 font-regular">Your Shopping Cart</h4>
+                                <a href="product.html"
+                                    class="orange-font font-12 font-semibold text-decoration-none">Continue shopping
+                                    ></a>
+                            </div>
+                            <div class="table-responsive px-3 text-nowrap">
+                                <table class="table table-borderless text-nowrap align-middle">
+                                    <thead>
+                                        <tr>
+                                            <th
+                                                class="bg-transparent border-bottom border-secondary font-14 font-semibold">
+                                                Description
+                                            </th>
+                                            <th
+                                                class="bg-transparent border-bottom border-secondary font-14 font-semibold">
+                                                Form</th>
+                                            <th
+                                                class="bg-transparent border-bottom border-secondary font-14 font-semibold">
+                                                Price</th>
+                                            <th
+                                                class="bg-transparent border-bottom border-secondary font-14 font-semibold">
+                                                Quantity</th>
+                                            <th
+                                                class="bg-transparent border-bottom border-secondary font-14 font-semibold">
+                                                Total</th>
+                                            <th
+                                                class="bg-transparent border-bottom border-secondary font-14 font-semibold">
+                                            </th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td class="bg-transparent font-regular font-14">
+                                                <select
+                                                    class="form-select bg-transparent border-secondary rounded-0 font-14 font-regular "
+                                                    style="width: 200px;">
+                                                    <option selected>BNNT 99.9%</option>
+                                                    <option value="1"> BNNT 99.9%</option>
+                                                    <option value="2"> BNNT 99.9%</option>
+                                                    <option value="3"> BNNT 99.9%</option>
+                                                </select>
+                                            </td>
+                                            <td class="bg-transparent font-regular font-14">
+                                                <select
+                                                    class="form-select bg-transparent border-secondary rounded-0 font-14 font-regular "
+                                                    style="width: 200px;">
+                                                    <option selected>Fluid Concentrate</option>
+                                                    <option value="1">Powder</option>
+                                                    <option value="2">Fluid Concentrate</option>
+                                                    <option value="3">Fibrous Material</option>
+                                                </select>
+                                            </td>
+                                            <td class="bg-transparent font-regular font-14">$ 1,250.00</td>
+                                            <td class="bg-transparent font-regular font-14">
+                                                <div
+                                                    class="input-group input-group-sm  border border-secondary flex-nowrap">
+                                                    <button
+                                                        class="btn btn-outline-secondary border-0 rounded-0 focus-none"
+                                                        type="button">+</button>
+                                                    <input type="text"
+                                                        class="form-control bg-transparent border-0 rounded-0 focus-none text-center"
+                                                        value="1" style="width: 32px;">
+                                                    <button class="btn btn-outline-secondary border-0 rounded-0 focus-none"
+                                                        type="button" >-</button>
+                                                </div>
+                                            </td>
+                                            <td class="bg-transparent font-regular font-14">$ 1,250.00</td>
+                                            <td class="bg-transparent font-regular font-14"><button
+                                                    class="btn bg-transparent focus-none p-0"><img
+                                                        src="images/action-delete.svg" alt="action-delete"></button>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="col-md-4 bg-light">
+                            <div class="mt-4 mx-3 order-summary">
+                                <h4 class="font-24 font-regular border-bottom border-secondary pb-3">Order Summary</h4>
+
+                                <span class="d-flex align-item-center justify-content-between mb-5">
+                                    <span class="font-14 font-regular">Total</span>
+                                    <span class="font-14 font-semibold">$ 1,250.00</span>
+                                </span>
+                                <span
+                                    class="d-flex align-item-center justify-content-between mb-3 border-bottom border-secondary pb-2">
+                                    <span class="font-16 font-regular text-secondary">Other Charges</span>
+                                </span>
+                                <span class="d-flex align-item-center justify-content-between mb-2">
+                                    <span class="font-14 font-regular">Sales Tax</span>
+                                    <span class="font-14 font-semibold">$ 75.00</span>
+                                </span>
+                                <span class="d-flex align-item-center justify-content-between mb-2">
+                                    <span class="font-14 font-regular">Import Duty</span>
+                                    <span class="font-14 font-semibold">-</span>
+                                </span>
+                                <span class="d-flex align-item-center justify-content-between mb-2">
+                                    <span class="font-14 font-regular">Shipping Charges</span>
+                                    <span class="font-14 font-semibold">$ 50.00</span>
+                                </span>
+                                <span class="border-bottom border-secondary my-3 d-block"></span>
+                                <span class="d-flex align-item-center justify-content-between ">
+                                    <span class="font-20 font-bold">Order Total</span>
+                                    <span class="font-14 font-semibold">$ 1,393.75</span>
+                                </span>
+
+                                <div class="text-center my-4 mt-lg-5 pt-lg-5">
+                                    <a class="btn orange-color text-white rounded-pill px-4 font-regular font-14" href="payment.html">Proceed to payment</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        <!-- footer starts here  -->
+        <footer class="footer py-3 primary-color">
+            <div class="container">
+                <div class="d-grid d-md-flex align-items-center justify-content-md-between justify-content-center gap-3">
+                    <span class="text-white font-12 font-semibold d-block">Copyright © 2024 Epic Advanced Materials</span>
+                    <span class="text-white font-12 font-semibold d-block d-flex gap-5">
+                        <span><a href="privacy.html" class="text-white text-decoration-none">Privacy policy</a></span>
+                        <span><a href="terms.html" class="text-white text-decoration-none">Terms & Conditions</a></span>
+
+                    </span>
+                    <span class="text-white font-12 font-semibold d-block d-flex gap-3">
+                        <span><a href="https://x.com/EpicNanotech"><img src="images/twitter-icon.svg" alt="twitter-icon"></a></span>
+                        <span><a href="https://www.linkedin.com/company/epic-advanced-materials/posts/?feedView=all"><img
+                                    src="images/linkedin-icon.svg" alt="twitter-icon"></a></span>
+                        <span><a href="https://www.instagram.com/epicnanotech/"><img src="images/instagram-icon.svg"
+                                    alt="twitter-icon"></a></span>
+                    </span>
+                </div>
+            </div>
+        </footer>
+        <!-- footer enters  here  -->
+
+
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/custom.js"></script>
+
+
+</body>
+
+</html>
